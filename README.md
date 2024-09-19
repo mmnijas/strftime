@@ -57,11 +57,11 @@ You can install this plugin into your application using [composer](https://getco
 
 ### Manual install
 
-- Download [php-8.1-strftime.php](https://github.com/alphp/strftime/raw/master/src/php-8.1-strftime.php) and save it to an accessible path of your project.
+- Download [Strftime.php](https://raw.githubusercontent.com/mmnijas/strftime/refs/heads/main/src/Strftime.php) and save it to an accessible path of your project.
 - Load the function MmNijas\strftime in your project
   ```php
   <?php
-    require 'php-8.1-strftime.php';
+    require 'Strftime.php';
     use function MmNijas\strftime;
   ```
 
