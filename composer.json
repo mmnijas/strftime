@@ -1,0 +1,27 @@
+{
+  "name": "mmnijas/strftime",
+  "description": "A Laravel package that provides strftime functionality compatible with PHP 8.1+. This package will serve as a drop-in replacement, leveraging IntlDateFormatter to provide locale-aware date and time formatting, similar to strftime",
+  "keywords": ["strftime", "date", "time", "intl", "date-format", "locale", "php-81", "php8", "datetime", "timezone", "calendar", "php", "laravel", "datetime-format", "intlDateFormatter", "gregorian-calendar", "icu", "locale-format"],
+  "license": "MIT",
+  "type": "library",
+  "support": {
+        "issues": "https://github.com/mmnijas/strftime/issues",
+        "source": "https://github.com/mmnijas/strftime"
+    },
+  "autoload": {
+    "psr-4": {
+      "MmNijas\\Strftime\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.1"
+  },
+  "authors": [
+    {
+      "name": "Nijas M M",
+      "email": "mmnijas@gmail.com",
+      "homepage": "https://mmnijas.in/"
+    }
+  ],
+  "minimum-stability": "stable"
+}
